@@ -209,6 +209,22 @@
 	charmap "8",         $fe
 	charmap "9",         $ff
 
+; french & german characters (from gfx/font/french_german.png)
+	charmap "ë",         $c6
+	charmap "ï",         $c7
+	charmap "â",         $c8
+	charmap "ô",         $c9
+	charmap "û",         $ca
+	charmap "ê",         $cb
+	charmap "î",         $cc
+	charmap "à",         $ba
+	charmap "è",         $bb
+	;charmap "é",         $bc (duplicate)
+	charmap "ù",         $bd
+	charmap "ß",         $be
+	charmap "ç",         $bf
+
+
 ; Japanese control characters (see home/text.asm)
 
 	charmap "<JP_18>",   $18 ; "ノ゛" (ungrammatical)
