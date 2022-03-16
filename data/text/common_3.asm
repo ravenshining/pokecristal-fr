@@ -1,28 +1,25 @@
 _OakText6::
-	text "Now, what did you"
-	line "say your name was?"
+	text "Heu... C'est quoi"
+	line "ton nom?"
 	prompt
 
 _OakText7::
-	text "<PLAYER>, are you"
-	line "ready?"
+	text "<PLAYER>, ta quête"
+	line "est sur le point"
+	cont "de commencer."
 
-	para "Your very own"
-	line "#MON story is"
-	cont "about to unfold."
+	para "Joies et périls"
+	line "paveront ta"
+	cont "route..."
 
-	para "You'll face fun"
-	line "times and tough"
-	cont "challenges."
+	para "Un monde de rêve,"
+	line "de dangers et de"
 
-	para "A world of dreams"
-	line "and adventures"
+	para "#MON t'attend!"
+	line "En avant!"
 
-	para "with #MON"
-	line "awaits! Let's go!"
-
-	para "I'll be seeing you"
-	line "later!"
+	para "..."
+	line "A plus tard."
 	done
 
 _ClockTimeMayBeWrongText::

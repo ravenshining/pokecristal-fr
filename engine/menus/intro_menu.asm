@@ -37,7 +37,7 @@ PrintDayOfWeek:
 	db "SATUR@"
 
 .Day:
-	db "DAY@"
+	db "JOUR@"
 
 NewGame_ClearTilemapEtc:
 	xor a

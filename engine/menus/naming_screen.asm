@@ -128,7 +128,7 @@ NamingScreen:
 	ret
 
 .PlayerNameString:
-	db "YOUR NAME?@"
+	db "VOTRE NOM?@"
 
 .Rival:
 	ld de, SilverSpriteGFX

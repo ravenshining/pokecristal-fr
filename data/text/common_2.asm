@@ -661,8 +661,8 @@ _YouCantUseItInABattleText::
 	prompt
 
 _AreYouABoyOrAreYouAGirlText::
-	text "Are you a boy?"
-	line "Or are you a girl?"
+	text "Etes-vous un gar-"
+	line "çon ou une fille?"
 	done
 
 Text_BattleEffectActivate::
@@ -1524,23 +1524,22 @@ _MayRegisterItemText::
 	done
 
 _OakText1::
-	text "Hello! Sorry to"
-	line "keep you waiting!"
+	text "Bonjour! Désolé de"
+	line "l'attente!"
 
-	para "Welcome to the"
-	line "world of #MON!"
+	para "Bienvenue dans le"
+	line "monde de #MON!"
 
-	para "My name is OAK."
+	para "Mon nom est CHEN."
 
-	para "People call me the"
-	line "#MON PROF."
+	para "Mais on m'appelle"
+	line "le PROF.#MON."
 	prompt
 
 _OakText2::
-	text "This world is in-"
-	line "habited by crea-"
-	cont "tures that we call"
-	cont "#MON.@"
+	text "Ce monde est peu-"
+	line "plé de créatures"
+	cont "appelées #MON.@"
 	text_end
 
 _OakText3::
@@ -1550,26 +1549,28 @@ _OakText3::
 	text_end ; unreferenced
 
 _OakText4::
-	text "People and #MON"
-	line "live together by"
+	text "Humains et #MON"
+	line "vivent en parfaite"
+	cont "harmonie..."
 
-	para "supporting each"
-	line "other."
-
-	para "Some people play"
-	line "with #MON, some"
-	cont "battle with them."
+	para "Certains jouent"
+	line "avec les #MON,"
+	cont "d'autres font des"
+	cont "combats avec eux."
 	prompt
 
 _OakText5::
-	text "But we don't know"
-	line "everything about"
-	cont "#MON yet."
+	text "Mais il reste"
+	line "beaucoup à appren-"
+	cont "dre sur nos amis"
+	cont "les #MON."
 
-	para "There are still"
-	line "many mysteries to"
-	cont "solve."
+	para "De nombreux mystè-"
+	line "res planent à leur"
+	cont "sujet."
 
-	para "That's why I study"
-	line "#MON every day."
+	para "Et c'est pourquoi"
+	line "j'étudie les"
+	cont "#MON tous les"
+	cont "jours."
 	prompt
