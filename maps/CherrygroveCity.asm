@@ -334,100 +334,108 @@ CherrygroveCity_RivalExitsStageLeft:
 	step_end
 
 GuideGentIntroText:
-	text "You're a rookie"
-	line "trainer, aren't"
-	cont "you? I can tell!"
+	text "Toi, tu débutes"
+	line "non? CA se voit!"
 
-	para "That's OK! Every-"
-	line "one is a rookie"
-	cont "at some point!"
+	para "C'est bon! Tout le"
+	line "monde a des"
+	cont "défauts!"
 
-	para "If you'd like, I"
-	line "can teach you a"
-	cont "few things."
+	para "Si tu veux, je"
+	line "peux t'apprendre"
+	cont "deux, trois petits"
+	cont "trucs sympa!"
 	done
 
 GuideGentTourText1:
-	text "OK, then!"
-	line "Follow me!"
+	text "Bon allez!"
+	line "Suis-moi!"
 	done
 
 GuideGentPokecenterText:
-	text "This is a #MON"
-	line "CENTER. They heal"
+	text "C'est un CENTRE"
+	line "#MON. On y"
 
-	para "your #MON in no"
-	line "time at all."
+	para "soigne les POKé-"
+	line "MON en moins de"
+	cont "temps qu'il n'en"
+	cont "faut pour le dire!"
 
-	para "You'll be relying"
-	line "on them a lot, so"
+	para "Tu en auras grand"
+	line "besoin pendant ta"
 
-	para "you better learn"
-	line "about them."
+	para "quête, alors"
+	line "apprends à les"
+	cont "utiliser."
 	done
 
 GuideGentMartText:
-	text "This is a #MON"
-	line "MART."
+	text "C'est une BOUTIQUE"
+	line "#MON."
 
-	para "They sell BALLS"
-	line "for catching wild"
+	para "On y vend des"
+	line "BALLS permettant"
 
-	para "#MON and other"
-	line "useful items."
+	para "de capturer les"
+	line "#MON et"
+	cont "plein d'autres"
+	cont "objets utiles."
 	done
 
 GuideGentRoute30Text:
-	text "ROUTE 30 is out"
-	line "this way."
+	text "La ROUTE 30 est"
+	line "par là."
 
-	para "Trainers will be"
-	line "battling their"
+	para "Les dresseurs"
+	line "s'y affrontent"
 
-	para "prized #MON"
-	line "there."
+	para "avec leurs #MON"
+	line "favoris."
 	done
 
 GuideGentSeaText:
-	text "This is the sea,"
-	line "as you can see."
+	text "Voici la mer."
 
-	para "Some #MON are"
-	line "found only in"
-	cont "water."
+	para "Certains #MON"
+	line "se trouvent"
+	cont "uniquement dans"
+	cont "l'eau."
 	done
 
 GuideGentGiftText:
-	text "Here…"
+	text "Voilà."
 
-	para "It's my house!"
-	line "Thanks for your"
-	cont "company."
+	para "C'est chez moi!"
+	line "Merci de m'avoir"
+	cont "tenu compagnie."
 
-	para "Let me give you a"
-	line "small gift."
+	para "Je vais te donner"
+	line "un p'tit truc."
 	done
 
 GotMapCardText:
-	text "<PLAYER>'s #GEAR"
-	line "now has a MAP!"
+	text "Le #GEAR de"
+	line "<PLAYER> contient"
+	cont "maintenant une"
+	cont "CARTE!"
 	done
 
 GuideGentPokegearText:
-	text "#GEAR becomes"
-	line "more useful as you"
-	cont "add CARDS."
+	text "Le #GEAR"
+	line "est plus utile"
+	cont "lorsqu'on y ajou-"
+	cont "te des COUPONS."
 
-	para "I wish you luck on"
-	line "your journey!"
+	para "Je te souhaite"
+	line "bonne chance!"
 	done
 
 GuideGentNoText:
-	text "Oh… It's something"
-	line "I enjoy doing…"
+	text "Oh..."
+	line "D'accord."
 
-	para "Fine. Come see me"
-	line "when you like."
+	para "Viens me voir"
+	line "quand tu veux."
 	done
 
 CherrygroveRivalText_Seen:
@@ -494,15 +502,15 @@ CherrygroveTeacherText_NoMapCard:
 	done
 
 CherrygroveTeacherText_HaveMapCard:
-	text "When you're with"
-	line "#MON, going"
-	cont "anywhere is fun."
+	text "C'est trop bien"
+	line "de se balader avec"
+	cont "ses #MON!"
 	done
 
 CherrygroveYoungsterText_NoPokedex:
-	text "MR.#MON's house"
-	line "is still farther"
-	cont "up ahead."
+	text "La maison de"
+	line "M.#MON est un"
+	cont "peu plus loin."
 	done
 
 CherrygroveYoungsterText_HavePokedex:
@@ -534,14 +542,14 @@ MysticWaterGuyTextAfter:
 	done
 
 CherrygroveCitySignText:
-	text "CHERRYGROVE CITY"
+	text "VILLE GRIOTTE"
 
-	para "The City of Cute,"
-	line "Fragrant Flowers"
+	para "La ville aux"
+	line "fleurs parfumées"
 	done
 
 GuideGentsHouseSignText:
-	text "GUIDE GENT'S HOUSE"
+	text "MAISON DES GUIDES"
 	done
 
 CherrygroveCity_MapEvents:
