@@ -208,11 +208,11 @@ _OakTimeSoDarkText::
 	done
 
 _OakTimeWhatDayIsItText::
-	text "What day is it?"
+	text "Quel jour?"
 	done
 
 _OakTimeIsItText::
-	text ", is it?"
+	text "?"
 	done
 
 ; Mobile Adapter

@@ -1080,11 +1080,11 @@ _LuckyNumberMatchPCText::
 	prompt
 
 _CaughtAskNicknameText::
-	text "Give a nickname to"
-	line "the @"
+	text "Donner un surnom"
+	line "au @"
 	text_ram wStringBuffer1
-	text " you"
-	cont "received?"
+	text " "
+	cont "reçu?"
 	done
 
 _PokecenterPCCantUseText::

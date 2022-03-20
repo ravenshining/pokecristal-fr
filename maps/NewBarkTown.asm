@@ -187,11 +187,11 @@ NewBarkTown_SilverReturnsToTheShadowsMovement:
 	step_end
 
 Text_GearIsImpressive:
-	text "Wow, your #GEAR"
-	line "is impressive!"
+	text "Oh! ton #GEAR"
+	line "est balèze!"
 
-	para "Did your mom get"
-	line "it for you?"
+	para "C'est ta mère qui"
+	line "l'a acheté?"
 	done
 
 Text_WaitPlayer:
@@ -241,42 +241,45 @@ Text_CallMomOnGear:
 Text_ElmDiscoveredNewMon:
 	text "Yo, <PLAYER>!"
 
-	para "I hear PROF.ELM"
-	line "discovered some"
-	cont "new #MON."
+	para "Il paraît que le"
+	line "PROF.ORME a décou-"
+	cont "vert de nouveaux"
+	cont "#MON."
 	done
 
 NewBarkTownRivalText1:
-	text "<……>"
+	text "................"
 
-	para "So this is the"
-	line "famous ELM #MON"
-	cont "LAB…"
+	para "Voici donc le cé-"
+	line "lèbre LABO #MON"
+	cont "du PROF.ORME..."
 	done
 
 NewBarkTownRivalText2:
-	text "…What are you"
-	line "staring at?"
+	text "...Mais kess-tu"
+	line "mates?"
 	done
 
 NewBarkTownSignText:
-	text "NEW BARK TOWN"
+	text "BOURG GEON"
 
-	para "The Town Where the"
-	line "Winds of a New"
-	cont "Beginning Blow"
+	para "La ville où"
+	line "souffle le vent"
+	cont "d'une nouvelle vie"
 	done
 
 NewBarkTownPlayersHouseSignText:
-	text "<PLAYER>'s House"
+	text "MAISON DE <PLAYER>"
 	done
 
 NewBarkTownElmsLabSignText:
-	text "ELM #MON LAB"
+	text "LABO #MON du"
+	line "PROF.ORME"
 	done
 
 NewBarkTownElmsHouseSignText:
-	text "ELM'S HOUSE"
+	text "MAISON DU"
+	line "PROF.ORME"
 	done
 
 NewBarkTown_MapEvents:

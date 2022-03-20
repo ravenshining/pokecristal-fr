@@ -45,22 +45,22 @@ PlayersNeighborsHouseRadioScript:
 	end
 
 PlayersNeighborsDaughterText:
-	text "PIKACHU is an"
-	line "evolved #MON."
+	text "PIKACHU est un"
+	line "#MON évolué."
 
-	para "I was amazed by"
-	line "PROF.ELM's find-"
-	cont "ings."
+	para "Les découvertes du"
+	line "PROF.ORME sont"
+	cont "incroyables."
 
-	para "He's so famous for"
-	line "his research on"
-	cont "#MON evolution."
+	para "Ses recherches sur"
+	line "l'évolution des"
+	cont "#MON sont"
+	cont "brillantes."
 
-	para "…sigh…"
+	para "(soupir)"
 
-	para "I wish I could be"
-	line "a researcher like"
-	cont "him…"
+	para "J'aimerais être"
+	line "comme lui..."
 	done
 
 PlayersNeighborText:

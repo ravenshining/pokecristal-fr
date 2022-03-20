@@ -115,14 +115,14 @@ PokeComNursePokerusText:
 	done
 
 DifficultBookshelfText:
-	text "It's full of"
-	line "difficult books."
+	text "C'est rempli de"
+	line "livres compliqués."
 	done
 
 PictureBookshelfText:
-	text "A whole collection"
-	line "of #MON picture"
-	cont "books!"
+	text "Une collection de"
+	line "livres d'images"
+	cont "#MON!"
 	done
 
 MagazineBookshelfText:
@@ -160,16 +160,16 @@ MerchandiseShelfText:
 	done
 
 LookTownMapText:
-	text "It's the TOWN MAP."
+	text "C'est la CARTE."
 	done
 
 WindowText:
-	text "My reflection!"
-	line "Lookin' good!"
+	text "Oh..."
+	line "Que c'est beau!"
 	done
 
 TVText:
-	text "It's a TV."
+	text "C'est la TV."
 	done
 
 HomepageText:

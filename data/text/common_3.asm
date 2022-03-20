@@ -259,11 +259,11 @@ _ReceivedItemText::
 	done
 
 _PutItemInPocketText::
-	text "<PLAYER> put the"
+	text "<PLAYER> met"
 	line "@"
 	text_ram wStringBuffer1
-	text " in"
-	cont "the @"
+	text " dans"
+	cont "@"
 	text_ram wStringBuffer3
 	text "."
 	prompt
@@ -1474,13 +1474,13 @@ _DeleterAskWhichMonText::
 	prompt
 
 _DSTIsThatOKText::
-	text " DST,"
-	line "is that OK?"
+	text ""
+	line "OK?"
 	done
 
 _TimeAskOkayText::
 	text ","
-	line "is that OK?"
+	line "OK?"
 	done
 
 _TimesetAskDSTText::
