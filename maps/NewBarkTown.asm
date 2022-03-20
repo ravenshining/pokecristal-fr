@@ -195,24 +195,25 @@ Text_GearIsImpressive:
 	done
 
 Text_WaitPlayer:
-	text "Wait, <PLAY_G>!"
+	text "Attends, <PLAY_G>!"
 	done
 
 Text_WhatDoYouThinkYoureDoing:
-	text "What do you think"
-	line "you're doing?"
+	text "On peut savoir ce"
+	line "que tu fabriques?"
 	done
 
 Text_ItsDangerousToGoAlone:
-	text "It's dangerous to"
-	line "go out without a"
+	text "C'est dangereux de"
+	line "sortir sans un"
 	cont "#MON!"
 
-	para "Wild #MON"
-	line "jump out of the"
+	para "Des #MON sauva-"
+	line "ges sortent des"
 
-	para "grass on the way"
-	line "to the next town."
+	para "herbes sur la rou-"
+	line "te de la prochaine"
+	cont "ville."
 	done
 
 Text_YourMonIsAdorable:

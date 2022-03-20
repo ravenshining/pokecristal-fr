@@ -115,8 +115,8 @@ NamingScreen:
 	ret
 
 .NicknameStrings:
-	db "'S@"
-	db "NICKNAME?@"
+	db "@"
+	db "SURNOM?@"
 
 .Player:
 	farcall GetPlayerIcon

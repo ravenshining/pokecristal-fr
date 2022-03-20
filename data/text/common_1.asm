@@ -1,17 +1,17 @@
 _FruitBearingTreeText::
-	text "It's a fruit-"
-	line "bearing tree."
+	text "C'est un arbre à"
+	line "fruits."
 	done
 
 _HeyItsFruitText::
-	text "Hey! It's"
+	text "Hé! C'est un(e)"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 _ObtainedFruitText::
-	text "Obtained"
+	text "Obtenu"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
@@ -1311,7 +1311,7 @@ _RepelWoreOffText::
 	done
 
 _PlayerFoundItemText::
-	text "<PLAYER> found"
+	text "<PLAYER> trouve"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"

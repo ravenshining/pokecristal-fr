@@ -927,7 +927,7 @@ GotElmsNumberText:
 ElmDescribesMrPokemonText:
 	text "M.#MON fouille"
 	line "un peu partout et"
-	cont "trouve des bizar-."
+	cont "trouve des bizar-"
 	cont "reries."
 
 	para "Mais la plupart du"
