@@ -1537,31 +1537,32 @@ _NPCTradeAfterText4::
 	done
 
 _MomLeavingText1::
-	text "Wow, that's a cute"
+	text "Oh! Quel joli"
 	line "#MON."
 
-	para "Where did you get"
-	line "it?"
+	para "Où l'as-tu trouvé?"
+	line "Hein? Où ça?"
 
-	para "…"
+	para "........."
 
-	para "So, you're leaving"
-	line "on an adventure…"
+	para "Alors t'aimes"
+	line "l'aventure, quoi."
 
 	para "OK!"
-	line "I'll help too."
+	line "J'vais t'aider."
 
-	para "But what can I do"
-	line "for you?"
+	para "Mais..."
+	line "Que faire?"
 
-	para "I know! I'll save"
-	line "money for you."
+	para "Je sais! Je vais"
+	line "économiser pour"
+	cont "toi."
 
-	para "On a long journey,"
-	line "money's important."
+	para "L'argent, c'est"
+	line "important."
 
-	para "Do you want me to"
-	line "save your money?"
+	para "Veux-tu que j'éco-"
+	line "nomise pour toi?"
 	done
 
 _MomLeavingText2::
@@ -1572,88 +1573,90 @@ _MomLeavingText2::
 	prompt
 
 _MomLeavingText3::
-	text "Be careful."
+	text "Fais attention."
 
-	para "#MON are your"
-	line "friends. You need"
-	cont "to work as a team."
+	para "Les #MON sont"
+	line "tes amis. Il faut"
+	cont "les aimer aussi."
 
-	para "Now, go on!"
+	para "En route!"
 	done
 
 _MomIsThisAboutYourMoneyText::
-	text "Hi! Welcome home!"
-	line "You're trying very"
-	cont "hard, I see."
+	text "Bienvenue!"
+	line "Tu fais des"
+	cont "efforts... C'est"
+	cont "dur l'aventure!"
 
-	para "I've kept your"
-	line "room tidy."
+	para "J'ai rangé ta"
+	line "chambre."
 
-	para "Or is this about"
-	line "your money?"
+	para "Est-ce à propos"
+	line "de l'argent?"
 	done
 
 _MomBankWhatDoYouWantToDoText::
-	text "What do you want"
-	line "to do?"
+	text "Que veux-tu"
+	line "faire?"
 	done
 
 _MomStoreMoneyText::
-	text "How much do you"
-	line "want to save?"
+	text "Combien veux-tu"
+	line "économiser?"
 	done
 
 _MomTakeMoneyText::
-	text "How much do you"
-	line "want to take?"
+	text "Combien veux-tu"
+	line "prendre?"
 	done
 
 _MomSaveMoneyText::
-	text "Do you want to"
-	line "save some money?"
+	text "Veux-tu économiser"
+	line "de l'argent?"
 	done
 
 _MomHaventSavedThatMuchText::
-	text "You haven't saved"
-	line "that much."
+	text "Tu n'as pas écono-"
+	line "misé autant."
 	prompt
 
 _MomNotEnoughRoomInWalletText::
-	text "You can't take"
-	line "that much."
+	text "Tu ne peux pas en"
+	line "prendre autant."
 	prompt
 
 _MomInsufficientFundsInWalletText::
-	text "You don't have"
-	line "that much."
+	text "Tu n'en as pas"
+	line "autant."
 	prompt
 
 _MomNotEnoughRoomInBankText::
-	text "You can't save"
-	line "that much."
+	text "Tu ne peux pas"
+	line "économiser autant."
 	prompt
 
 _MomStartSavingMoneyText::
-	text "OK, I'll save your"
-	line "money. Trust me!"
+	text "OK, je vais écono-"
+	line "miser ton argent."
+	cont "Aie confiance!"
 
-	para "<PLAYER>, stick"
-	line "with it!"
+	para "<PLAYER>,"
+	line "tiens bon!"
 	done
 
 _MomStoredMoneyText::
-	text "Your money's safe"
-	line "here! Get going!"
+	text "Je m'occupe de tes"
+	line "sous! Va!"
 	done
 
 _MomTakenMoneyText::
-	text "<PLAYER>, don't"
-	line "give up!"
+	text "<PLAYER>,"
+	line "courage!"
 	done
 
 _MomJustDoWhatYouCanText::
-	text "Just do what"
-	line "you can."
+	text "Fais de ton"
+	line "mieux."
 	done
 
 _DaycareDummyText::

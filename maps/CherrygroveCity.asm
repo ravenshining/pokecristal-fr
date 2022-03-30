@@ -90,7 +90,7 @@ CherrygroveCityGuideGent:
 	end
 
 .mapcardname
-	db "MAP CARD@"
+	db "CPN CARTE@"
 
 .No:
 	writetext GuideGentNoText
@@ -441,43 +441,42 @@ GuideGentNoText:
 CherrygroveRivalText_Seen:
 	text "<……> <……> <……>"
 
-	para "You got a #MON"
-	line "at the LAB."
+	para "Tu as un #MON"
+	line "du LABO."
 
-	para "What a waste."
-	line "A wimp like you."
+	para "Du gâchis, ouais!"
+	line "Une mauviette"
+	cont "comme toi..."
 
 	para "<……> <……> <……>"
 
-	para "Don't you get what"
-	line "I'm saying?"
+	para "Bon."
+	line "J't'aime pas."
 
-	para "Well, I too, have"
-	line "a good #MON."
-
-	para "I'll show you"
-	line "what I mean!"
+	para "Je vais te montrer"
+	line "le bon #MON"
+	cont "que j'ai moi!"
 	done
 
 SilverCherrygroveWinText:
-	text "Humph. Are you"
-	line "happy you won?"
+	text "Alors?"
+	line "C'est la joie?"
 	done
 
 CherrygroveRivalText_YouLost:
 	text "<……> <……> <……>"
 
-	para "My name's ???."
+	para "Mon nom est ???."
 
-	para "I'm going to be"
-	line "the world's great-"
-	cont "est #MON"
-	cont "trainer."
+	para "Je serai le plus"
+	line "grand dresseur de"
+	cont "#MON du"
+	cont "monde."
 	done
 
 SilverCherrygroveLossText:
-	text "Humph. That was a"
-	line "waste of time."
+	text "Pfff. Une perte"
+	line "de temps."
 	done
 
 CherrygroveRivalText_YouWon:

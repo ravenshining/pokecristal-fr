@@ -321,10 +321,9 @@ SoWhatWasProfElmsErrandText:
 	done
 
 ImBehindYouText:
-	text "<PLAYER>, do it!"
+	text "<PLAYER>, courage!"
 
-	para "I'm behind you all"
-	line "the way!"
+	para "Je suis avec toi!"
 	done
 
 NeighborMornIntroText:

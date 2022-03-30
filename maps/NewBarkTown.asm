@@ -223,12 +223,12 @@ Text_YourMonIsAdorable:
 	done
 
 Text_TellMomIfLeaving:
-	text "Hi, <PLAY_G>!"
-	line "Leaving again?"
+	text "Salut, <PLAY_G>!"
+	line "Tu pars déjà?"
 
-	para "You should tell"
-	line "your mom if you"
-	cont "are leaving."
+	para "Tu devrais préve-"
+	line "nir te petite"
+	cont "maman."
 	done
 
 Text_CallMomOnGear:

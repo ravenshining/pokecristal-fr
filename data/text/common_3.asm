@@ -881,7 +881,7 @@ _PhoneWrongNumberText::
 	done
 
 _PhoneClickText::
-	text "Click!"
+	text "Clic!"
 	done
 
 _PhoneEllipseText::
@@ -1496,8 +1496,9 @@ _TimesetDSTText::
 	prompt
 
 _TimesetAskNotDSTText::
-	text "Is Daylight Saving"
-	line "Time over?"
+	text "Le changement"
+	line "d'heure est-il"
+	cont "fini?"
 	done
 
 _TimesetNotDSTText::

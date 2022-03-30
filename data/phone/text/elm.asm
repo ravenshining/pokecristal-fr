@@ -130,17 +130,17 @@ ElmPhoneDiscoveredPokerusText:
 	done
 
 ElmPhoneDisasterText:
-	text "H-hello? <PLAY_G>?"
-	line "It's a disaster!"
+	text "<PLAY_G>?"
+	line "C'est..."
+	cont "C'est terrible!"
 
-	para "Uh, um, it's just"
-	line "terrible!"
+	para "C'est..."
+	line "AFFREUX!"
 
-	para "What should I do?"
-	line "It… Oh, no…"
+	para "Que faire?"
+	line "Oh, non..."
 
-	para "Please get back"
-	line "here now!"
+	para "Reviens vite!"
 	done
 
 ElmPhoneEggAssistantText:
