@@ -1,13 +1,13 @@
 JoeyAskNumber1Text:
-	text "Listen, can I get"
-	line "your phone number?"
+	text "Heu... Je peux"
+	line "avoir ton numéro?"
 
-	para "I'll ring you for"
-	line "some battles."
+	para "Je t'appellerai"
+	line "pour combattre."
 
-	para "I'm a rookie too, "
-	line "so I think it'd be"
-	cont "a good motivator."
+	para "Je débute, moi"
+	line "aussi. Ca nous"
+	cont "entraînera..."
 	done
 
 JoeyAskNumber2Text:
@@ -22,16 +22,15 @@ JoeyAskNumber2Text:
 	done
 
 JoeyNumberAcceptedText:
-	text "I'll ring you"
-	line "whenever I get the"
-	cont "urge to battle!"
+	text "Je t'appelle si"
+	line "j'veux me battre."
 	done
 
 JoeyNumberDeclinedText:
-	text "Oh, all right…"
+	text "Oh, très bien..."
 
-	para "But I won't lose"
-	line "to you again!"
+	para "Mais tu ne me"
+	line "battras plus!"
 	done
 
 JoeyPhoneFullText:
