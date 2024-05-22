@@ -2215,7 +2215,8 @@ endc
 	call DelayFrames
 	xor a
 	ldh [hVBlank], a
-	inc a ; LINK_TIMECAPSULE
+	assert LINK_TIMECAPSULE == 1
+	inc a
 	ld [wLinkMode], a
 	ret
 
@@ -2288,7 +2289,7 @@ SetBitsForTimeCapsuleRequest:
 	ldh [rSC], a
 	ld a, (1 << rSC_ON) | (0 << rSC_CLOCK)
 	ldh [rSC], a
-	xor a ; LINK_TIMECAPSULE - 1
+	xor a ; LINK_NULL
 	ld [wPlayerLinkAction], a
 	ld [wChosenCableClubRoom], a
 	ret
